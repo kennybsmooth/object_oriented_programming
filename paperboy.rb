@@ -42,9 +42,14 @@ class Paperboy
 
 end
 
+
+#paperboy instances
 jonny = Paperboy.new('John')
 jonny.quota
-jonny.deliver(120, 500)
+jonny.deliver(250, 1000)
 jonny.report
-jonny.deliver(120, 500)
-jonny.report
+
+pete = Paperboy.new('Peter')
+pete.quota
+pete.delvier(500, 1200)
+pete.report
