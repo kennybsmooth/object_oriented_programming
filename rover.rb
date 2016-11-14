@@ -1,4 +1,5 @@
 class Rover
+
   def initialize(x, y, direction)
     @x = x
     @y = y
