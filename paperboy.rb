@@ -19,7 +19,7 @@ class Paperboy
   # as a floating point number. It should also update the paperboy's experience!
   # Let's assume that the start_address is always a smaller number than the end_address
   # As a stretch exercise you can figure out how to ensure it still works if the
-  # above assumption isn't met!
+  # above assumption isn't met! Kenny
 
   def deliver(start_address, end_address)
     houses = (end_address - start_address)

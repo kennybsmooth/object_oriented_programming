@@ -25,10 +25,10 @@ class Cat
     end
 end
 
-    precious = Cat.new('Precious','chicken bits', 20)
+    kenny = Cat.new('Kenny','chicken bits', 20)
     nicole = Cat.new('Nicole','minced meat', 15)
     fluffy = Cat.new('Fluffy', 'tuna', 24)
 
- puts precious.meow
+ puts kenny.meow
  puts nicole.meow
  puts fluffy.meow
